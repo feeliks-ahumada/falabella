@@ -1,4 +1,4 @@
-##Shipping the code
+## Shipping the code
 ```
 gcloud auth configure-docker
 
@@ -10,7 +10,7 @@ gcloud run deploy service --image gcr.io/falabella-assessment/service \
 --update-env-vars GOOGLE_CLOUD_PROJECT=falabella-assessment --no-allow-unauthenticated
 ```
 
-##Integrating with Pub/Sub
+## Integrating with Pub/Sub
 
 1. create a service account to subscription identity
 ```
